@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "Waiting for kernel print to complete..."
+sleep 5
+reset
+echo "Welcome to ASPU-OS!"
+echo "Please wait while we are initializing the main menu."
+python /boot.py
+
